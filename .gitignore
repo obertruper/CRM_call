@@ -189,3 +189,6 @@ Thumbs.db
 *.tmp
 *.temp
 .~*
+
+# Scripts and setup files
+scripts/git/
