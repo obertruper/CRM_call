@@ -1,0 +1,47 @@
+# CRM Automation Dependencies
+# Python 3.8+
+
+# Основные зависимости
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Работа с датами и временем
+python-dateutil>=2.8.2
+
+# Логирование
+loguru>=0.7.2
+
+# Работа с данными
+pandas>=2.0.0
+openpyxl>=3.1.2  # для работы с Excel файлами
+
+# База данных (раскомментируйте нужное)
+# psycopg2-binary>=2.9.9  # PostgreSQL
+# pymongo>=4.5.0  # MongoDB
+# mysql-connector-python>=8.2.0  # MySQL
+
+# API и веб
+aiohttp>=3.9.1  # для асинхронных HTTP запросов
+beautifulsoup4>=4.12.2  # для парсинга HTML
+
+# Планировщик задач
+schedule>=1.2.0
+APScheduler>=3.10.4
+
+# Тестирование
+pytest>=7.4.3
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.1
+
+# Линтеры и форматирование
+flake8>=6.1.0
+black>=23.11.0
+isort>=5.12.0
+
+# Утилиты
+click>=8.1.7  # для CLI интерфейса
+tqdm>=4.66.1  # прогресс-бары
+colorama>=0.4.6  # цветной вывод в консоль
+
+# Безопасность
+cryptography>=41.0.7
